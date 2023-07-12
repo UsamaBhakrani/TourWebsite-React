@@ -1,5 +1,7 @@
-const LinkComp = ({ value }) => {
-  const data = value.map(({ id, href, name }) => {
+import { pageLinks } from "../Data";
+
+const LinkComp = () => {
+  const data = pageLinks.map(({ id, href, name }) => {
     return (
       <li key={id}>
         <a href={href} className="nav-link">

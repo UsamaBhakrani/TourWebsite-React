@@ -1,4 +1,5 @@
 import { socialLinks, pageLinks } from "../Data";
+import LinkComp from "./LinkComp";
 
 const Footer = () => {
   const renderedData = pageLinks.map(({ href, name, id }) => {
@@ -24,8 +25,8 @@ const Footer = () => {
       <ul className="footer-links">{renderedData}</ul>
       <ul className="footer-icons">{iconData}</ul>
       <p className="copyright">
-        copyright &copy; Backroads travel tours company
-        <span id="date"></span> all rights reserved
+        copyright &copy; TourAway travel tours company
+        <span id="date">{new Date().getFullYear()}</span> all rights reserved
       </p>
     </footer>
   );
