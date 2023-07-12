@@ -1,0 +1,36 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+backroads-html/index.html
+backroads-html/images/about.jpeg
+backroads-html/images/favicon.ico
+backroads-html/images/logo.svg
+backroads-html/images/main.jpeg
+backroads-html/images/tour-1.jpeg
+backroads-html/images/tour-2.jpeg
+backroads-html/images/tour-3.jpeg
+backroads-html/images/tour-4.jpeg
+backroads-html/images/tour-5.jpeg
+backroads-html/images/tour-6.jpeg
+backroads-html/js/app.js
